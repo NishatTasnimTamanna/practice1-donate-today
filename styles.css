@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+.front-page{
+    text-align: center;
+    color:white;
+    background-image: url(images/donation8.jpg);
+    background-size: contain;
+    mix-blend-mode: darken;
+    background-repeat: repeat-x;
+    background-position-x: center;
+}
+.btn-donate{
+    color:white;
+    background-color: orangered;
+    border-radius: 60px ;
+    border:0;
+    margin:20px;
+    padding: 10px;
+}
+.first-line{
+    padding-top: 60px ;
+}
+.second-line{
+    padding-bottom: 30px;
+}
+.front-page p{
+    text-align: center;
+    font-size: 600;
+}
+.second-page{
+    text-align: center;
+}
+.description{
+    text-align: center;
+    font-size: 700;
+}
+ul{
+    display:flex;
+    gap:20px
+}
+li{
+    list-style: none;
+    margin:30px
+}
+button{
+    list-style: none;
+    background-color: lightgray ;
+    padding: 20px;
+    border:0;
+}
+.tk{
+    list-style: none;
+    background-color:lightsalmon ;
+    color:orangered
+    padding: 20px;
+}
